@@ -1,5 +1,10 @@
-<?php wp_footer(); ?>
-<h1>fffff</h1>
+<?php
+wp_nav_menu(array(
+  'theme_location' => 'footerLocation'
+));
+wp_footer();
+?>
+
 </body>
 
 </html>

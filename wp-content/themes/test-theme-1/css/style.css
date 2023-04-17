@@ -1,0 +1,37 @@
+/*
+Theme Name: Test Theme 1
+Author: XXX
+Version: 1.0
+*/
+
+
+body{
+  color: #6ca7c5;
+}
+#menu-head-menu {
+  background-color: #f5f5f5;
+}
+#menu-head-menu .menu-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#menu-head-menu .menu-item:last-child {
+  margin-right: 0;
+}
+
+#menu-head-menu .menu-item a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+}
+
+#menu-head-menu .menu-item:hover a {
+  color: #fff;
+  background-color: #333;
+}
+
+
+
+
+
